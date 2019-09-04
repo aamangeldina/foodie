@@ -1,0 +1,195 @@
+body {
+    padding: 0;
+    margin: 0;
+  }
+
+  /*--- navigation bar ---*/
+  
+  .nav-link,
+  .navbar-brand {
+    color: rgb(110, 110, 110);
+    cursor: pointer;
+    margin-top:40px;
+  }
+
+  .navbar-brand{
+    margin-left:40px;
+  }
+
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color: rgb(190, 190, 190);
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  .navbar-inner {
+    background:transparent;
+}
+.navbar-brand:hover{
+  color: rgb(190, 190, 190);
+}
+
+  .fa {
+    margin-top: 45px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(124, 124, 124);
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .body{
+    width: 900px;
+    margin:auto;
+  }
+  .intro_text{
+    padding-top:40px;
+  }
+  .intro_text h4{
+    text-align: center;
+  }
+  .intro_text img{
+    padding-top:20px;
+  }
+
+  .recipe{
+    padding-top:40px;
+  }
+  .recipe p{
+   line-height: 0.4;
+  }
+  .cooking{
+    padding-top:40px;
+    line-height: 1.1;
+    }
+    .title {
+      font-size: 22px;
+      text-align: center;
+      padding-bottom: 20px;
+      font-style: italic;
+    }
+   
+    .ingredients{
+      text-align: left;
+      line-height: 0.9;
+      padding: 20px 0 0 10px;
+    }
+    .details{
+      background: rgb(207, 207, 207);
+      text-align: left;
+      padding: 20px 10px 5px 10px;
+      color: rgb(63, 63, 63);
+      line-height: 0.9;
+    }
+
+
+    .cooking2 h4{
+      text-align: center;
+      font-family: 'Cormorant Infant', serif;
+      font-weight: 600;
+    }
+
+    .cooking2{
+      font-family: 'Cormorant Infant', serif;
+      font-size:20px;
+      background: rgb(194, 194, 194);
+      padding:20px 10px 10px 10px ;
+      margin-top: 40px;
+    }
+    .features{
+      font-family: 'Cormorant Infant', serif;
+      font-size:20px;
+    }
+
+    .features h3{
+      font-size:2.5rem;
+      text-align: center;
+      color:rgb(112, 112, 112);
+    }
+
+    .features h4{
+      font-weight: 600;
+    }
+
+
+.catalogue p{
+  font-size:16px;
+  line-height: 1.2;
+  font-family: "Sans serif";
+  color: rgb(129, 129, 129);
+}
+
+
+  .description {
+    left: 50%;
+    position: absolute;
+    top: 60%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+  }
+  .description h1 {
+    color: #000000;
+  }
+  .description p {
+    color: rgb(32, 31, 31);
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+
+  .features {
+    margin: 1em auto;
+    padding: 1em;
+    position: relative;
+    text-align: left;
+    color: rgb(85, 77, 77);
+  }
+  .feature-title{
+    color: rgb(129, 129, 129);
+    font-size: 1;
+    font-weight: bold;
+    margin-bottom: 20px;
+    }
+  .features img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+  }
+
+  .read_more a{
+    color: rgb(32, 31, 31);
+  }
+  .read_more a:hover{
+    color: rgb(100, 100, 100);
+  }
+
+
+  @media (max-width: 575.98px) {
+    .description {
+      left: 0;
+      padding: 0 15px;
+      position: absolute;
+      top: 10%;
+      transform: none;
+      text-align: center;
+    }
+    
+    .description h1 {
+      font-size: 2em;
+    }
+    
+    .description p {
+      font-size: 1.2rem;
+    }
+    
+    .features {
+      margin: 0;
+    }
+  }
